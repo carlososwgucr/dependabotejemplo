@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # El ecosistema que usamos
+    directory: "/"
+    schedule:
+      interval: "weekly" # No queremos spam diario
+    open-pull-requests-limit: 5 # Control de ruido
+    reviewers:
+      - "mi-equipo-de-seguridad"
